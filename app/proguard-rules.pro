@@ -1,1 +1,1 @@
--keep class com.arthenica.ffmpegkit.** { *; }
+# Default ProGuard rules

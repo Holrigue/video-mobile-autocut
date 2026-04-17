@@ -45,6 +45,5 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
-    // FFmpeg for video processing
-    implementation 'com.arthenica:ffmpeg-kit-android-full:6.0-2'
+    // Video processing uses native Android MediaExtractor/MediaMuxer (no external deps)
 }
